@@ -18,7 +18,7 @@ functions@ /Users/PATH/firebase-tools/issues/11094/functions
 3. Open http://localhost:5000 in your browser
 4. Create a user using the form
 5. Check the terminal output for the `console.log('user created:', event.data.uid);`
-   - No logs indicating functions `testOnUserCreatedv2` was created
+   - No logs indicating functions `testOnUserCreatedv2` was triggered or initialized
 ```
 $ firebase emulators:start --project demo-project
 i  emulators: Starting emulators: auth, functions, hosting, extensions
